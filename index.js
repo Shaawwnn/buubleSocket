@@ -4,7 +4,7 @@ const http = require("http").createServer(app);
 
 const io = require("socket.io")(http, {
   cors: {
-    origin: "*",
+    origin: "https://bubble12.vercel.app",
   },
 });
 
